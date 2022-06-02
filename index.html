@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+  <!-- Rating state start -->
+  <div class="card-container">
+    <div class="card">
+      <div class="star-box">
+        <img src="./images/icon-star.svg" alt="" srcset="">
+      </div>
+
+      <div class="title">
+        <h1>How did we do?</h1>
+      </div>
+
+      <div class="paragraph">
+        <p>
+          Please let us know how we did with our support request.
+          All feedback is appreciated to help us improve our offering!
+        </p>
+      </div>
+
+      <div class="stars">
+        <div class="numbers">
+          <p value="1" class="oneStar">1</p>
+          <p value="2" class="twoStar">2</p>
+          <p value="3" class="threeStar">3</p>
+          <p value="4" class="fourStar">4</p>
+          <p value="5" class="fiveStar">5</p>
+        </div>
+      </div>
+
+      <div class="button">
+        <button id="btn">SUBMIT</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="afterCardContainer">
+    <div class="afterCard">
+      <div class="afterImage">
+        <img src="./images/illustration-thank-you.svg" alt="" srcset="">
+      </div>
+
+      <div class="afterTitle">
+        <h1>Thank you!</h1>
+      </div>
+
+      <div class="starsRate">
+        <p class="selectedStars"></p>
+      </div>
+
+      <div class="afterParagraph">
+        <p>
+          We appreciate you taking the time to give a rating.
+          If you ever need more support, dont hesitate to get in touch!
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Antonio Iturriaga</a>.
+  </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
